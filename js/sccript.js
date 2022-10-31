@@ -1,19 +1,19 @@
 function clickMe() {
-  var name = prompt("Gõ tên mày vào cái khung dưới đây, liền ngay nào!!!");
+  var name = prompt("Gõ tên em vào đây nha, bất ngờ đấy!");
   if (name != null) {
     switch (name) {
       case "":
         document.getElementById("name").innerHTML =
-          "Gửi lời chúc không thân thương và vô cùng khó chịu vì mày không chịu nhập tên của mày vào!!!";
+          "Gửi lời chúc thân ái và quyết thắng đến em yêu của của anh <3";
         break;
       default:
         document.getElementById("name").innerHTML =
-          "Gửi lời chúc thân ái và quyết thắng đến bạn " + name + " của tôi <3";
+          "Gửi lời chúc thân ái và quyết thắng đến em yêu của của anh <3";
         break;
     }
   } else {
     document.getElementById("name").innerHTML =
-      "Gửi lời chúc không thân thương và vô cùng khó chịu vì mày bấm cancel mà không chịu nhập tên của mày vào!!!";
+      "Gửi lời chúc thân ái và quyết thắng đến em yêu của của anh <3";
   }
   document.getElementById("img").style.display = "block";
   document.getElementById("content").style.display = "block";
