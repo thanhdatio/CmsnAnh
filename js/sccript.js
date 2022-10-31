@@ -1,5 +1,5 @@
 function clickMe() {
-  var name = prompt("Gõ tên em vào đây nha, bất ngờ đấy!");
+  var name = prompt("nhập điều ước của em vào đây nha, sẽ không ai biết đâu em :D");
   if (name != null) {
     switch (name) {
       case "":
